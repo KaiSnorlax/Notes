@@ -1,6 +1,8 @@
 [
   "table-editor-obsidian",
   "obsidian-completr",
+  "obsidian-git",
   "obsidian-minimal-settings",
-  "highlightr-plugin"
+  "obsidian-tikzjax",
+  "quick-latex"
 ]

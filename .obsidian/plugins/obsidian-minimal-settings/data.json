@@ -1,8 +1,8 @@
 {
   "lightStyle": "minimal-light",
-  "darkStyle": "minimal-dark",
+  "darkStyle": "minimal-dark-tonal",
   "lightScheme": "minimal-default-light",
-  "darkScheme": "minimal-flexoki-dark",
+  "darkScheme": "minimal-everforest-dark",
   "editorFont": "JetBrainsMonoNL Nerd Font Mono",
   "lineHeight": 1.5,
   "lineWidth": 40,
@@ -24,11 +24,11 @@
   "fullWidthMedia": true,
   "bordersToggle": true,
   "minimalStatus": true,
-  "focusMode": true,
+  "focusMode": false,
   "underlineInternal": true,
   "underlineExternal": true,
   "folding": true,
-  "lineNumbers": false,
+  "lineNumbers": true,
   "readableLineLength": true,
   "devBlockWidth": false
 }

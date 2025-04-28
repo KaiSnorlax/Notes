@@ -1,3 +1,9 @@
 {
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "rightToLeft": false,
+  "showLineNumber": true,
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "propertiesInDocument": "visible",
+  "foldHeading": true
 }
