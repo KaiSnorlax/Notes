@@ -35,6 +35,9 @@ layout
 load
 location
 language
+later
+let
+loop
 Intelligence
 It
 If
@@ -87,6 +90,8 @@ all
 ab
 any
 addition
+allowed
+along
 to
 turn
 time
@@ -117,6 +122,8 @@ table
 theirs
 text
 terms
+things
+this
 under
 utility
 upwards
@@ -131,6 +138,8 @@ unstable
 user
 unique
 useful
+unit
+unless
 stand
 search
 sum
@@ -179,6 +188,8 @@ similar
 start
 substitutions
 sub
+summarized
+string
 rules
 recursively
 represents
@@ -205,6 +216,8 @@ re
 results
 relationships
 regular
+remove
+removed
 Predict
 Ply
 Psycology
@@ -221,6 +234,7 @@ Private
 Protected
 Package
 Proof
+PROOF
 possible
 players
 player
@@ -255,6 +269,9 @@ prevent
 properly
 pairs
 permit
+proof
+previously
+preceding
 futures
 function
 for
@@ -310,6 +327,7 @@ open
 only
 organization
 out
+other
 does
 decide
 defined
@@ -335,6 +353,7 @@ data
 description
 display
 diagram
+deal
 what
 where
 win
@@ -357,6 +376,7 @@ working
 window
 waiting
 we
+was
 is
 indicates
 if
@@ -376,6 +396,8 @@ input
 internal
 indicator
 items
+introduces
+infinite
 best
 by
 both
@@ -391,6 +413,7 @@ bend
 backlog
 behavior
 button
+been
 Two
 Turns
 Tree
@@ -412,6 +435,7 @@ THEOREM
 One
 Optimal
 Objective
+Otherwise
 Zero
 gain
 game
@@ -426,6 +450,8 @@ gravity
 great
 grammar
 generate
+generates
+get
 Nodes
 Non
 No
@@ -436,6 +462,7 @@ Newtons
 Neuroscience
 Need
 Next
+Normal
 Edges
 Each
 Euclidean
@@ -447,6 +474,7 @@ Euler
 Equilibrium
 Engineering
 Enable
+Eliminate
 moves
 maximizes
 minimizes
@@ -537,6 +565,7 @@ heuristic
 have
 hover
 highlight
+had
 Minimax
 MAX
 MIN
@@ -578,6 +607,7 @@ exists
 exist
 every
 except
+empty
 chooses
 contain
 child
@@ -645,6 +675,7 @@ Composition
 CFL
 Construct
 Chomsky
+Convert
 Space
 Sum
 Search
@@ -673,6 +704,7 @@ Save
 Specialization
 Student
 SO
+Supposed
 First
 Focus
 Functions
@@ -682,12 +714,14 @@ Fluid
 For
 Fixed
 Feature
+Form
 you
 your
 BFS
 Bending
 Backlog
 Blackboard
+BC
 Robot
 Realism
 Resistance
@@ -695,6 +729,8 @@ Repository
 Reveal
 Relationships
 Realization
+Repeat
+Replace
 knowledge
 keep
 quickly

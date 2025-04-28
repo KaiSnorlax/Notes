@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "445/Untitled.md",
+                "file": "480/Untitled 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Untitled 1"
             }
           }
         ]
@@ -181,11 +181,13 @@
   },
   "active": "37e2aeac0c32ea02",
   "lastOpenFiles": [
+    "480/Untitled.md",
+    "480/Untitled 1.md",
+    "445/Untitled.md",
+    "445/context-free-grammars.md",
     "307/307.md",
     "490/Springs.md",
-    "445/Untitled.md",
     "480/Heuristic Search.md",
-    "480/Untitled.md",
     "445/automaton.svg",
     "490/490.md",
     "Welcome.md",
