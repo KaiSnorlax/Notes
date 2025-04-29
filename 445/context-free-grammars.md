@@ -91,3 +91,48 @@ Derivation for the string 123:
 \end{document}
 ```
 
+
+
+
+# Pushdown Automata
+
+```tikz
+\usetikzlibrary{automata, arrows.meta, positioning, calc, fit, chains, shapes}
+
+\tikzset{
+  ->,
+  initial text=,
+  shorten >=1pt,
+  >={Stealth[round]},
+  on grid,
+  auto,
+  node distance=2cm,
+  bend angle=15,
+}
+
+\begin{document}
+    \begin{tikzpicture}
+    \node at (-1.5,1.5) {$M_1$};
+      \node[state, initial, accepting] (1) {$q_1$};
+      \node[state] (2) [right =of 1] {$q_2$};
+
+      \draw (1) edge[right] node {$0$} ()
+                edge[loop right] node {$1$} ();
+    \end{tikzpicture}
+\end{document}
+```
+$M_{1}= (Q,\Sigma, \Gamma, \delta, q_{1}, F)$ where:
+- $Q=\{q_1,q_2,q_3,q_4\}$
+- $\Sigma=\{0,1\}$,
+- $\Gamma=\{0,\$\}$,
+- $F=\{q_{1,}q_4\}$, and
+- $\delta$ is given by:
+
+
+| input | 0           | 0           | 0             | 1                    | 1           | 1           | $\epsilon$  | $\epsilon$           | $\epsilon$     |
+| ----- | ----------- | ----------- | ------------- | -------------------- | ----------- | ----------- | ----------- | -------------------- | -------------- |
+| stack | 0           | $           | $\epsilon$    | 0                    | $           | $\epsilon$  | 0           | $                    | $\epsilon$     |
+| $q_1$ | $\emptyset$ | $\emptyset$ | $\emptyset$   | $\emptyset$          | $\emptyset$ | $\emptyset$ | $\emptyset$ | $\emptyset$          | $\{(q_2,\$)\}$ |
+| $q_2$ | $\emptyset$ | $\emptyset$ | $\{(q_2,0)\}$ | $\{(q_3,\epsilon)\}$ | $\emptyset$ | $\emptyset$ | $\emptyset$ | $\emptyset$          | $\emptyset$    |
+| $q_3$ | $\emptyset$ | $\emptyset$ | $\emptyset$   | $\{(q_3,\epsilon)\}$ | $\emptyset$ | $\emptyset$ | $\emptyset$ | $\{(q_4,\epsilon)\}$ | $\emptyset$    |
+| $q_4$ | $\emptyset$ | $\emptyset$ | $\emptyset$   | $\emptyset$          | $\emptyset$ | $\emptyset$ | $\emptyset$ | $\emptyset$          | $\emptyset$    |
